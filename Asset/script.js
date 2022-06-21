@@ -16,8 +16,10 @@ window.addEventListener("scroll", function() {
 
 	if (scrollposition >= 60) {
 		header.classList.add("shadow-nav")
+		ul.classList.add("shadow-nav-ul")
 	} else if (scrollposition < 60) {
 		header.classList.remove("shadow-nav")
+		ul.classList.remove("shadow-nav-ul")
 	}
 })
 
