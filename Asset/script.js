@@ -10,6 +10,17 @@ let info_varian_2 = document.querySelector("#info-varian-2")
 let closeInfo_1 = document.querySelector(".close-1")
 let closeInfo_2 = document.querySelector(".close-2")
 
+// header scrolling
+window.addEventListener("scroll", function() {
+	scrollposition = window.scrollY;
+
+	if (scrollposition >= 60) {
+		header.classList.add("shadow-nav")
+	} else if (scrollposition < 60) {
+		header.classList.remove("shadow-nav")
+	}
+})
+
 // navbar responsive
 toggle.addEventListener("click", function() {
 	ul.classList.toggle("muncul")

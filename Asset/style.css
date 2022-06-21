@@ -27,10 +27,16 @@ header {
     padding: 20px 20px;
 	background-color: #fff1e6;
 	box-sizing: border-box;
-	transition: all 1s;
+	transition: all .6s;
 	position: fixed;
 	top: 0;
 	left: 0;
+}
+
+.shadow-nav {
+	box-shadow: 0 0 50px rgba(180, 83, 9, .3),
+				inset 10px -5px 10px rgba(180, 83, 9, .1)
+
 }
 
 .flex-container-header {
@@ -61,6 +67,7 @@ nav {
 }
 
 ul {
+	overflow-x: hidden;
 	width: 100%;
 	display: flex;
 	justify-content: flex-end;
@@ -145,10 +152,15 @@ li a {
 }
 
 @media screen and (max-width: 576px) {
+	.clear {
+		clear: both;
+	}
+
 	nav ul {
 		position: absolute;
+		z-index: 999;
 		margin-top: 45px;
-		left: 0;
+		right: 0;
 		top: 80;
 		padding: 50px 0px;
 		box-sizing: border-box;
@@ -159,7 +171,7 @@ li a {
 		justify-content: space-between;
 		align-items: center;
 		box-shadow: 0 0 10px 10px rgba(255, 232, 214, .9s);
-		transform: translateX(-130%);
+		transform: translateX(100%);
 		transition: all 1s;
 	}
 
@@ -182,6 +194,7 @@ li a {
 /* main */
 main {
 	padding-top: 100px;
+    overflow-x: hidden;
 }
 
 	content > section > .flex-container-section-main {
