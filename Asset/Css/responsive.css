@@ -148,6 +148,24 @@
 	}
 	/* end testimoni */
 
+	/* start aside */
+	#kontak {
+		padding-top: 100px;
+	    max-width: 1000px;
+		margin: 0 auto;
+		display: block;
+	}
+
+	#tentang-website {
+		width: 100%;
+	}
+
+	#tentang-saya {
+		width: 100%;
+	}
+
+	/* end aside */
+
 }
 
 @media screen and (max-width: 576px) {

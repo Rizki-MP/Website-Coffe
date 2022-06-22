@@ -16,11 +16,10 @@ body {
     background: #fff1e6;
     overflow-x: hidden;
 	color: #b45309;
-	min-height: 5000px;
 }
 
 h1 {
-	font-size: 50px !important;
+	font-size: 50px ;
 }
 
 h2 {
@@ -28,11 +27,11 @@ h2 {
 }
 
 h3 {
-	font-size: 32px !important;
+	font-size: 32px ;
 }
 
 h4 {
-	font-size: 25px !important;
+	font-size: 25px ;
 }
 
 li {
@@ -528,7 +527,7 @@ main {
 		display: flex;
 		flex-direction: column;
 		align-content: center;
-		justify-content: center;
+		justify-content: space-around;
 		padding: 20px;
 		color: #fff;
 		background-color: #d4620b;
@@ -564,13 +563,13 @@ main {
 
 #testimoni {
 	max-width: 1000px;
-	margin: 210px auto;
+	margin: 170px auto;
 	padding: 10px;
 	padding-top: 120px;
 	color: #fcd9bd;
 }
 
-#testimoni h3 {
+#testimoni h2 {
 	text-align: center;
 	margin-bottom: 30px;
 	color: #b45309;
@@ -644,4 +643,66 @@ main {
 }
 
 /* end section testimoni */
+/* start aside */
+#kontak {
+	padding-top: 100px;
+    max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+#tentang-website {
+	width: 50%;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+#tentang-saya {
+	width: 50%;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+#tentang-website h2 {
+	text-align: center;
+}
+
+#tentang-saya h2 {
+	text-align: center;
+}
+
+.flex-container-tentang-website {
+	margin-top: 15px;
+	border-radius: 20px;
+	background-color: #b45309;
+	padding: 20px;
+}
+
+.flex-container-tentang-saya {
+	margin-top: 15px;
+	border-radius: 20px;
+	background-color: #b45309;
+	padding: 20px;
+}
+
+.section-img-tentang-saya {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.section-img-tentang-saya img {
+	width: 100%;
+	margin: 0 auto;
+}
+/* end aside */
 /* akhir main */
+
+/* footer start */
+footer {
+	width: 100%;
+	background-color: #b45309;
+	padding: 20px;
+	margin-top: 500px;
+}
+/* end footer  */
