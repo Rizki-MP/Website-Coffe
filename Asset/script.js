@@ -33,7 +33,7 @@ toggle.addEventListener("click", function() {
 })
 // end Navbar resonsive
 
-// informasi produk 1
+// informasi produk 1 (pop-up)
 button_kategori_1.addEventListener("click", function() {
 	info_varian_1.classList.add("scale-variant")
 })
@@ -42,7 +42,7 @@ closeInfo_1.addEventListener("click", function() {
 	info_varian_1.classList.remove("scale-variant")
 })
 
-// informasi produk 2
+// informasi produk 2 (pop-up)
 button_kategori_2.addEventListener("click", function() {
 	info_varian_2.classList.add("scale-variant")
 })
@@ -51,7 +51,7 @@ closeInfo_2.addEventListener("click", function() {
 	info_varian_2.classList.remove("scale-variant")
 })
 
-// informasi produk 3
+// informasi produk 3 (pop-up)
 button_kategori_3.addEventListener("click", function() {
 	info_varian_3.classList.add("scale-variant")
 })

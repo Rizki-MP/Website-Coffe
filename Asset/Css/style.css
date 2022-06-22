@@ -19,6 +19,21 @@ body {
 	min-height: 5000px;
 }
 
+h1 {
+	font-size: 50px !important;
+}
+
+h2 {
+	font-size: 40px !important;
+}
+
+h3 {
+	font-size: 32px !important;
+}
+
+h4 {
+	font-size: 25px !important;
+}
 
 li {
 	list-style: none;
@@ -54,6 +69,7 @@ header {
 	position: fixed;
 	top: 0;
 	left: 0;
+	z-index: 999;
 }
 
 
@@ -154,6 +170,7 @@ li a {
 .toggle-nav input:checked ~ span:nth-child(3) {
 	transform: scale(0);
 }
+
 /* end */
 
 /* akhir header */
@@ -175,7 +192,7 @@ main {
 }
 
 /* start section */
-#section-content-main .flex-container-section-main {
+.flex-container-section-main {
     max-width: 1000px;
 	margin: 0 auto;
 	display: flex;
@@ -216,6 +233,11 @@ main {
 	transition: all .3s;
 }
 
+#button-section-content-main a {
+	text-decoration: none;
+	color: #fff1e6;
+}
+
 #button-section-content-main:hover {
 	box-shadow: 0 0 10px 15px rgba(255, 232, 214, 1);
 	background-color: #d4620b;
@@ -233,15 +255,25 @@ main {
 
 /* start article */
 #section-content-article {
-	margin-top: 100px;
+	padding-top: 100px;
+	margin-top: 150px;
 }
+
+#section-content-article > h2 {
+	text-align: center;
+} 
 
 	/* article-kategori-1 */
 	content article {
 	    max-width: 1000px;
-		margin: 10px auto;
-		padding-top: 100px;
+		margin: 0px auto;
+		padding-top: 20px;
 		box-sizing: border-box;
+	}
+
+	#article-1 h3, .garis-varian-1 {
+		margin-left: 10px;
+		margin-right: auto;
 	}
 
 	.garis-varian-1 {
@@ -252,9 +284,10 @@ main {
 
 	.kategori-1 {
 		display: flex;
-		justify-content: space-between;
+		justify-content: flex-start;
 		width: 100%;
 		align-items: center;
+		padding: 10px;
 	}
 
 	.kategori-1 section:nth-child(1) {
@@ -269,7 +302,7 @@ main {
 		color: #fff;
 		border: none;
 		font-weight: 600;
-		border-radius: 30px;
+		border-radius: 30px 30px 0px 30px;
 	    font-family: 'Quicksand', sans-serif;
 		transition: all .3s;
 	}
@@ -283,8 +316,9 @@ main {
 	.kategori-1 section:nth-child(2) {
 		display: flex;
 		align-items: center;
-		margin-left: 50px;
-		width: 60%;
+		justify-content: flex-start;
+		margin-left: 10px;
+		width: 58%;
 	}
 
 	.kategori-1 section img {
@@ -311,6 +345,16 @@ main {
 		transition: all .6s;
 	}
 
+	.kategori-1 .rasa {
+		font-weight: 600;
+	}
+
+	.kategori-1 .penjelasan {
+		font-weight: 600;
+		color: #db7323;
+		margin-right: 25px;
+	}
+
 	.close-1 {
 		position: absolute;
 		top: 0px;
@@ -321,7 +365,7 @@ main {
 	/* end article-kategori-1 */
 
 	/* article-kategori-2 */
-	#article-2 h2, .garis-varian-2 {
+	#article-2 h3, .garis-varian-2 {
 		text-align: right;
 		margin-left: auto;
 	}
@@ -351,7 +395,6 @@ main {
 	}
 
 	.kategori-2 {
-		margin-top: -60px;
 		display: flex;
 		justify-content: space-between;
 		width: 100%;
@@ -363,6 +406,15 @@ main {
 		width: 60%;
 	}
 
+	.kategori-2 .rasa {
+		font-weight: 600;
+	}
+
+	.kategori-2 .penjelasan {
+		font-weight: 600;
+		color: #db7323;
+	}
+
 	#button-kategori-2 {
 		cursor: pointer;
 		padding: 10px 15px;
@@ -371,7 +423,7 @@ main {
 		color: #fff;
 		border: none;
 		font-weight: 600;
-		border-radius: 30px;
+		border-radius: 30px 30px 30px 0px;
 	    font-family: 'Quicksand', sans-serif;
 		transition: all .3s;
 	}
@@ -381,7 +433,6 @@ main {
 		background-color: #d4620b;
 		transition: all .3s;
 	}
-
 
 	.kategori-2 section img {
 		width: 100%;
@@ -400,7 +451,7 @@ main {
 	.garis-varian-2 {
 		background-color: #b45309;
 		width: 40px;
-		height: 2px;
+		height: 2.9px;
 	}
 
 	.close-2 {
@@ -410,21 +461,33 @@ main {
 		font-size: 50px;
 		cursor: pointer;
 	}
-
-	.garis-varian-3 {
-		background-color: #b45309;
-		width: 40px;
-		height: 2px;
-	}
 	/* end article-kategori-2 */
 
 
 	/* start article-kategori-3 */
+	#article-3 h3, .garis-varian-3 {
+		margin-left: 10px;
+		margin-right: auto;
+	}
+
+	#article-3 {
+		margin-top: 30px;
+	}
+
 	.kategori-3 {
 		display: flex;
 		justify-content: space-between;
 		width: 100%;
 		align-items: center;
+	}
+
+	.kategori-3 .rasa {
+		font-weight: 600;
+	}
+
+	.kategori-3 .penjelasan {
+		font-weight: 600;
+		color: #db7323;
 	}
 
 	.kategori-3 section:nth-child(1) {
@@ -439,7 +502,7 @@ main {
 		color: #fff;
 		border: none;
 		font-weight: 600;
-		border-radius: 30px;
+		border-radius: 30px 30px 0px 30px;
 	    font-family: 'Quicksand', sans-serif;
 		transition: all .3s;
 	}
@@ -488,6 +551,12 @@ main {
 		font-size: 50px;
 		cursor: pointer;
 	}
+
+	.garis-varian-3 {
+		background-color: #b45309;
+		width: 40px;
+		height: 2px;
+	}
 	/* end article-kategori-3 */
 /* end article */
 
@@ -495,11 +564,17 @@ main {
 
 #testimoni {
 	max-width: 1000px;
-	margin: 0 auto;
-	margin-top: 200px;
-	padding: 30px;
-	padding-top: 140px;
+	margin: 210px auto;
+	padding: 10px;
+	padding-top: 120px;
 	color: #fcd9bd;
+}
+
+#testimoni h3 {
+	text-align: center;
+	margin-bottom: 30px;
+	color: #b45309;
+	font-size: 37px;
 }
 
 .flex-container-section-testimoni {
@@ -511,19 +586,29 @@ main {
 	justify-content: space-between;
 	background-image: linear-gradient(#b45309, #d9640b);
 	box-shadow: 0 0 40px rgba(180, 83, 9, 0.3);
-	border: 3px solid #b45309;
 	transition: all .6s;	
 	cursor: pointer;
 }
 
 .flex-container-section-testimoni:hover {
-	box-shadow: 0 0 40px rgba(180, 83, 9, 0.9);
+	box-shadow: 0 0 20px rgba(180, 83, 9, 1.0);
 	transition: all .6s;	
 }
 
 .flex-container-section-testimoni:hover .img-testimoni img  {
-	transform: rotate(15deg);
+	transform: rotate(2deg);
 	transition: all .6s;
+	z-index: 0;
+}
+
+.flex-container-section-testimoni:hover .img-testimoni {
+	background-image: linear-gradient(#bd5406, #a14805);
+	transition: all .6s;	
+}
+
+.flex-container-section-testimoni:hover {
+	background-image: linear-gradient(#d9640b, #b45309);
+	transition: all .6s;	
 }
 
 .img-testimoni {
@@ -531,27 +616,31 @@ main {
 	border-radius: 10px;
  	padding: 10px;
 	background-image: linear-gradient(#a14805, #bd5406);
- 	border: 3px solid #b45309;
+	margin: 0 auto;
 }
 
 .img-testimoni img {
  	width: 100%;
 	transition: all .6s;	
+	z-index: 0;
 }
 
 
 .text-testimoni {
 	text-align: center;
 	width: 60%;
+	padding: 20px;
 }
 
 .text-testimoni h4 {
 	font-size: 22px;
-	margin-top: 20px;
+	margin-top: 100px;
+	text-align: center;
 }
 
-.text-testimoni h2 {
-	margin-top: 50px;
+.text-testimoni p {
+	margin-top: 10px;	
+	text-align: center;
 }
 
 /* end section testimoni */
