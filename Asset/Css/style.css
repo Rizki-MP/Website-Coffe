@@ -712,6 +712,15 @@ main {
 	margin: 0 auto;
 }
 
+.section-img-tentang-website {
+	border-radius: 50%;
+	padding: 40px;
+	box-sizing: border-box;
+	background-color: #d96e1c;
+	width: 80%;
+	margin: 0 auto;
+}
+
 .section-content-tentang-saya {
 	margin-top: 20px;
 }
@@ -742,7 +751,7 @@ main {
 }
 
 .container-paragraf-informasi .output {
-	width: 50%;
+	width: 60%;
 }
 
 #button-about {
@@ -778,7 +787,26 @@ main {
 	transition: all .3s;
 }
 
-.container-button {
+.container-skill {
+	margin: 0 auto;
+	width: max-content;
+}
+
+#button-project {
+	cursor: pointer;
+	padding: 5px 8px;
+	text-align: center;
+	background-color: #fff;
+	margin-top: 10px;
+	color: #b45309;
+	border: none;
+	font-weight: 600;
+	border-radius: 30px;
+    font-family: 'Quicksand', sans-serif;
+	transition: all .3s;
+}
+
+.container-project {
 	margin: 0 auto;
 	width: max-content;
 }
@@ -796,6 +824,12 @@ main {
 	margin-top: 9px;
 	text-align: center;
 }
+
+.projectS {
+	margin-top: 9px;
+	text-align: center;
+}
+
 
 .section-img-tentang-saya img {
 	width: 100%;
@@ -833,12 +867,163 @@ main {
 	cursor: pointer;
 }
 
+.container-content-skill {
+	position: fixed;
+	background-color: #b45309;
+	padding: 20px;
+	top: 30%;
+	bottom: 30%;
+	left: 20%;
+	right: 20%;
+	border-radius: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 0 40px #fff1e6;
+	transform: scale(0);
+	transition: all .6s;
+}
+
+.h-skill{
+	text-align: center;
+}
+
+.button_skill_muncul {
+	transform: scale(1) !important;
+	transition: all .6s;
+}
+
+.close-skill {
+	position: absolute;
+	top: 0px;
+	right: 20px;
+	font-size: 50px;
+	cursor: pointer;
+}
+
+.container-content-project {
+	position: fixed;
+	background-color: #b45309;
+	padding: 20px;
+	top: 30%;
+	bottom: 30%;
+	left: 20%;
+	right: 20%;
+	border-radius: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 0 40px #fff1e6;
+	transform: scale(0);
+	transition: all .6s;
+
+}
+
+.button_project_muncul {
+	transform: scale(1) !important;
+	transition: all .6s;
+}
+
+.close-project {
+	position: absolute;
+	top: 0px;
+	right: 20px;
+	font-size: 50px;
+	cursor: pointer;
+}
+
+.list-skill {
+	margin: 0 auto;
+}
+
+.list-skill ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-skill ul li svg {
+  margin: 10px;
+  width: 40px !important;
+  border-width: 2px;
+  border-style: solid;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #8c3f03;
+}
+
+.html svg{
+	border-color: #ff0015;
+	transition: all .4s;
+}
+
+.html svg:hover {
+	box-shadow: 0 0 10px #ff0015;
+	transition: all .4s;
+}
+
+.css svg{
+	border-color: #00b3ff;
+	transition: all .4s;
+}
+
+.css svg:hover {
+	box-shadow: 0 0 10px #00b3ff;
+	transition: all .4s;
+}
+
+.js svg{
+	border-color: #ffff00;
+	transition: all .4s;
+}
+
+.js svg:hover {
+	box-shadow: 0 0 10px #ffff00;
+	transition: all .4s;
+}
+
+.tailwind svg{
+	border-color: #00ffff;
+	transition: all .4s;
+}
+
+.tailwind svg:hover {
+	box-shadow: 0 0 10px #00ffff;
+	transition: all .4s;
+}
+
+.bootstrap svg{
+	border-color: #a200ff;
+	transition: all .4s;
+}
+
+.bootstrap svg:hover {
+	box-shadow: 0 0 10px #a200ff;
+	transition: all .4s;
+}
+
+.python svg{
+	border-color: #005da8;
+	transition: all .4s;
+}
+
+.python svg:hover {
+	box-shadow: 0 0 10px #005da8;
+	transition: all .4s;
+}
+
 /* end aside */
 /* akhir main */
 
 /* footer start */
 footer {
-	margin-top: 500px;
+	margin-top: 50px;
+	color: #fff1e6;
+}
+
+.line-svg {
+	margin-bottom: -20px;
 }
 
 .footer-container {

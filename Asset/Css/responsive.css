@@ -167,7 +167,23 @@
 	.container-paragraf-about {
 		position: fixed;
 		top: 15%;
+		bottom: 5%;
+		left: 10%;
+		right: 10%;
+	}
+
+	.container-content-skill {
+		position: fixed;
+		top: 15%;
 		bottom: 15%;
+		left: 15%;
+		right: 15%;
+	}
+
+	.container-content-project {
+		position: fixed;
+		top: 15%;
+		bottom: 5%;
 		left: 10%;
 		right: 10%;
 	}

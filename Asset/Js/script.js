@@ -15,6 +15,12 @@ let closeInfo_3 = document.querySelector(".close-3")
 let closeInfo_about = document.querySelector(".close-about")
 let button_about = document.querySelector("#button-about")
 let container_btn_about = document.querySelector(".container-paragraf-about")
+let closeInfo_skill = document.querySelector(".close-skill")
+let button_skill = document.querySelector("#button-skill")
+let container_btn_skill = document.querySelector(".container-content-skill")
+let closeInfo_project = document.querySelector(".close-project")
+let button_project = document.querySelector("#button-project")
+let container_btn_project = document.querySelector(".container-content-project")
 
 // header scrolling
 window.addEventListener("scroll", function() {
@@ -70,4 +76,22 @@ button_about.addEventListener("click", function() {
 
 closeInfo_about.addEventListener("click", function() {
 	container_btn_about.classList.remove("button_about_muncul")
+})
+
+// button-skill (pop-up)
+button_skill.addEventListener("click", function() {
+	container_btn_skill.classList.add("button_skill_muncul")
+})
+
+closeInfo_skill.addEventListener("click", function() {
+	container_btn_skill.classList.remove("button_skill_muncul")
+})
+
+// button-project (pop-up)
+button_project.addEventListener("click", function() {
+	container_btn_project.classList.add("button_project_muncul")
+})
+
+closeInfo_project.addEventListener("click", function() {
+	container_btn_project.classList.remove("button_project_muncul")
 })
