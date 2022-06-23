@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 /* set awal */
 * {
@@ -23,7 +24,7 @@ h1 {
 }
 
 h2 {
-	font-size: 40px !important;
+	font-size: 40px ;
 }
 
 h3 {
@@ -573,7 +574,8 @@ main {
 	text-align: center;
 	margin-bottom: 30px;
 	color: #b45309;
-	font-size: 37px;
+	font-weight: 600 !important;
+	font-family: 'Poppins', sans-serif;
 }
 
 .flex-container-section-testimoni {
@@ -655,6 +657,7 @@ main {
 #tentang-website {
 	width: 50%;
 	box-sizing: border-box;
+	cursor: pointer;
 	padding: 10px;
 }
 
@@ -662,14 +665,28 @@ main {
 	width: 50%;
 	box-sizing: border-box;
 	padding: 10px;
+	color: #fff1e6;
+	cursor: pointer;
+}
+
+.garis {
+	background-color: #fff1e6;
+	height: 2px;
+	width: 30px;
+	margin: 0 auto;
 }
 
 #tentang-website h2 {
 	text-align: center;
+	font-weight: 600 !important;
+	font-family: 'Poppins', sans-serif;
 }
 
 #tentang-saya h2 {
 	text-align: center;
+	font-weight: 600 !important;
+	font-family: 'Poppins', sans-serif;
+	color: #b45309;
 }
 
 .flex-container-tentang-website {
@@ -687,8 +704,63 @@ main {
 }
 
 .section-img-tentang-saya {
-	width: 100%;
+	border-radius: 50%;
+	padding: 40px;
+	box-sizing: border-box;
+	background-color: #d96e1c;
+	width: 80%;
 	margin: 0 auto;
+}
+
+.section-content-tentang-saya {
+	margin-top: 20px;
+}
+
+.section-content-tentang-saya h3 {
+	text-align: center;
+}
+
+.about-me {
+	margin-top: 9px;
+	text-align: center;
+}
+
+.InformasiS {
+	margin-top: 9px;
+	text-align: center;
+}
+
+#button-about {
+	cursor: pointer;
+	padding: 5px 8px;
+	text-align: center;
+	background-color: #fff;
+	margin-top: 10px;
+	color: #b45309;
+	border: none;
+	font-weight: 600;
+	border-radius: 30px;
+    font-family: 'Quicksand', sans-serif;
+	transition: all .3s;
+}
+
+.container-button {
+	margin: 0 auto;
+	width: max-content;
+}
+
+.kasih-margin {
+	margin-top: 9px;
+} 
+
+.CeritaS {
+	margin-top: 9px;
+	text-align: center;
+}
+
+.SkillS {
+	margin-top: 9px;
+	text-align: center;
 }
 
 .section-img-tentang-saya img {
@@ -700,9 +772,11 @@ main {
 
 /* footer start */
 footer {
-	width: 100%;
-	background-color: #b45309;
-	padding: 20px;
 	margin-top: 500px;
+}
+
+.footer-container {
+	background-color: #b45309;
+	padding: 20px 0px;
 }
 /* end footer  */

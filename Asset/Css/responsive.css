@@ -219,5 +219,25 @@
 	.toggle-nav {
 		display: flex;
 	}
+
+	#info-varian-2 {
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		justify-content: center;
+		padding: 20px;
+		color: #fff;
+		background-color: #d4620b;
+		position: fixed;
+		top: 15%;
+		bottom: 15%;
+		left: 15%;
+		right: 15%;
+		opacity: .9;
+		text-align: center;
+		border-radius: 5px;
+		transform: scale(0);
+		transition: all .6s;
+	}
 }
 /* akhir */
