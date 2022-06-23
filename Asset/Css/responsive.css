@@ -164,6 +164,13 @@
 		width: 100%;
 	}
 
+	.container-paragraf-about {
+		position: fixed;
+		top: 15%;
+		bottom: 15%;
+		left: 10%;
+		right: 10%;
+	}
 	/* end aside */
 
 }

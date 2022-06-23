@@ -730,7 +730,41 @@ main {
 	text-align: center;
 }
 
+.container-paragraf-informasi {
+	display: flex;
+	justify-content: space-around;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.container-paragraf-informasi .input {
+	width: 30%;
+}
+
+.container-paragraf-informasi .output {
+	width: 50%;
+}
+
 #button-about {
+	cursor: pointer;
+	padding: 5px 8px;
+	text-align: center;
+	background-color: #fff;
+	margin-top: 10px;
+	color: #b45309;
+	border: none;
+	font-weight: 600;
+	border-radius: 30px;
+    font-family: 'Quicksand', sans-serif;
+	transition: all .3s;
+}
+
+.container-button {
+	margin: 0 auto;
+	width: max-content;
+}
+
+#button-skill {
 	cursor: pointer;
 	padding: 5px 8px;
 	text-align: center;
@@ -767,6 +801,38 @@ main {
 	width: 100%;
 	margin: 0 auto;
 }
+
+.container-paragraf-about {
+	position: fixed;
+	background-color: #b45309;
+	padding: 20px;
+	top: 30%;
+	bottom: 30%;
+	left: 20%;
+	right: 20%;
+	border-radius: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 0 40px #fff1e6;
+	transform: scale(0);
+	transition: all .6s;
+
+}
+
+.button_about_muncul {
+	transform: scale(1) !important;
+	transition: all .6s;
+}
+
+.close-about {
+	position: absolute;
+	top: 0px;
+	right: 20px;
+	font-size: 50px;
+	cursor: pointer;
+}
+
 /* end aside */
 /* akhir main */
 

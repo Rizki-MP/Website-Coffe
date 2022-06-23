@@ -12,6 +12,9 @@ let info_varian_3 = document.querySelector("#info-varian-3")
 let closeInfo_1 = document.querySelector(".close-1")
 let closeInfo_2 = document.querySelector(".close-2")
 let closeInfo_3 = document.querySelector(".close-3")
+let closeInfo_about = document.querySelector(".close-about")
+let button_about = document.querySelector("#button-about")
+let container_btn_about = document.querySelector(".container-paragraf-about")
 
 // header scrolling
 window.addEventListener("scroll", function() {
@@ -58,4 +61,13 @@ button_kategori_3.addEventListener("click", function() {
 
 closeInfo_3.addEventListener("click", function() {
 	info_varian_3.classList.remove("scale-variant")
+})
+
+// button-about (pop-up)
+button_about.addEventListener("click", function() {
+	container_btn_about.classList.add("button_about_muncul")
+})
+
+closeInfo_about.addEventListener("click", function() {
+	container_btn_about.classList.remove("button_about_muncul")
 })
