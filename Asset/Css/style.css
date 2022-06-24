@@ -906,10 +906,10 @@ main {
 	position: fixed;
 	background-color: #b45309;
 	padding: 20px;
-	top: 30%;
-	bottom: 30%;
-	left: 20%;
-	right: 20%;
+	top: 20%;
+	bottom: 20%;
+	left: 15%;
+	right: 15%;
 	border-radius: 30px;
 	display: flex;
 	justify-content: center;
@@ -918,6 +918,11 @@ main {
 	transform: scale(0);
 	transition: all .6s;
 
+}
+
+.container-content-project h4 {
+	margin: 0 auto;
+	text-align: center;
 }
 
 .button_project_muncul {
@@ -1023,6 +1028,45 @@ main {
 	border-color: #005da8;
 	transition: all .4s;
 	cursor: pointer;
+}
+
+.list-project {
+	display: flex;
+	flex-direction: row;
+	height: 80%;
+	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	padding: 10px;
+
+}
+
+figure {
+	border-radius: 20px;
+	overflow: hidden;
+	margin: 0 10px;
+	background-color: #c95c08;
+	cursor: pointer;
+	width: 100%;
+	max-width: 300px;
+}
+
+figcaption {
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 8px;
+}
+
+figcaption a {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+figure img {
+	width: 100%;
+	margin-top: 0 auto;
 }
 /* end aside */
 /* akhir main */

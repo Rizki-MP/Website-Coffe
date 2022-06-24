@@ -187,11 +187,17 @@
 		left: 10%;
 		right: 10%;
 	}
+
 	/* end aside */
 
 }
 
 @media screen and (max-width: 576px) {
+	figure {
+		width: 100% !important;
+		display: block;
+	}
+
 	.shadow-nav {
 		box-shadow: 0 0 50px rgba(180, 83, 9, .3),
 					inset 10px -5px 10px rgba(180, 83, 9, .1)
