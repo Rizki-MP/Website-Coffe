@@ -657,7 +657,6 @@ main {
 #tentang-website {
 	width: 50%;
 	box-sizing: border-box;
-	cursor: pointer;
 	padding: 10px;
 }
 
@@ -666,7 +665,6 @@ main {
 	box-sizing: border-box;
 	padding: 10px;
 	color: #fff1e6;
-	cursor: pointer;
 }
 
 .garis {
@@ -709,7 +707,9 @@ main {
 	box-sizing: border-box;
 	background-color: #d96e1c;
 	width: 80%;
+	height: 400px;
 	margin: 0 auto;
+	overflow: hidden;
 }
 
 .section-img-tentang-website {
@@ -719,6 +719,7 @@ main {
 	background-color: #d96e1c;
 	width: 80%;
 	margin: 0 auto;
+	overflow: hidden;
 }
 
 .section-content-tentang-saya {
@@ -954,65 +955,75 @@ main {
 }
 
 .html svg{
-	border-color: #ff0015;
 	transition: all .4s;
 }
 
 .html svg:hover {
 	box-shadow: 0 0 10px #ff0015;
+	border-color: #ff0015;
 	transition: all .4s;
+	cursor: pointer;
 }
 
 .css svg{
-	border-color: #00b3ff;
 	transition: all .4s;
+	cursor: pointer;
 }
 
 .css svg:hover {
 	box-shadow: 0 0 10px #00b3ff;
+	border-color: #00b3ff;
 	transition: all .4s;
+	cursor: pointer;
 }
 
 .js svg{
-	border-color: #ffff00;
 	transition: all .4s;
+	cursor: pointer;
 }
 
 .js svg:hover {
 	box-shadow: 0 0 10px #ffff00;
+	border-color: #ffff00;
 	transition: all .4s;
+	cursor: pointer;
 }
 
 .tailwind svg{
-	border-color: #00ffff;
 	transition: all .4s;
+	cursor: pointer;
 }
 
 .tailwind svg:hover {
 	box-shadow: 0 0 10px #00ffff;
+	border-color: #00ffff;
 	transition: all .4s;
+	cursor: pointer;
 }
 
 .bootstrap svg{
-	border-color: #a200ff;
 	transition: all .4s;
+	cursor: pointer;
 }
 
 .bootstrap svg:hover {
 	box-shadow: 0 0 10px #a200ff;
+	border-color: #a200ff;
 	transition: all .4s;
+	cursor: pointer;
 }
 
 .python svg{
-	border-color: #005da8;
 	transition: all .4s;
+	cursor: pointer;
 }
 
 .python svg:hover {
 	box-shadow: 0 0 10px #005da8;
+	border-color: #005da8;
 	transition: all .4s;
+	cursor: pointer;
 }
-
 /* end aside */
 /* akhir main */
 
