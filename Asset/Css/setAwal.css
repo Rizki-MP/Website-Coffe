@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    background: #fff1e6;
+    overflow-x: hidden;
+	color: #b45309;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+h3 {
+	font-size: 32px;
+}
+
+h4 {
+	font-size: 25px;
+}
+
+li {
+	list-style: none;
+    font-family: 'Quicksand', sans-serif;
+}

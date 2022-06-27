@@ -1,5 +1,11 @@
 /* responsive */
 @media screen and (min-width: 768px) {
+
+	nav, ul {
+		display: flex;
+		align-items: center;
+	}
+
 	.shadow-nav {
 		box-shadow: 0 0 50px rgba(180, 83, 9, .3),
 					inset 10px -5px 10px rgba(180, 83, 9, .1)
