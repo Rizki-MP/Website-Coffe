@@ -528,7 +528,7 @@ main {
 		display: flex;
 		flex-direction: column;
 		align-content: center;
-		justify-content: space-around;
+		justify-content: center;
 		padding: 20px;
 		color: #fff;
 		background-color: #d4620b;
@@ -702,22 +702,29 @@ main {
 }
 
 .section-img-tentang-saya {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	border-radius: 50%;
 	padding: 40px;
 	box-sizing: border-box;
 	background-color: #d96e1c;
 	width: 80%;
-	height: 400px;
+	height: 380px;
 	margin: 0 auto;
 	overflow: hidden;
 }
 
 .section-img-tentang-website {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	border-radius: 50%;
 	padding: 40px;
 	box-sizing: border-box;
 	background-color: #d96e1c;
 	width: 80%;
+	height: 380px;
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -752,6 +759,25 @@ main {
 }
 
 .container-paragraf-informasi .output {
+	width: 60%;
+}
+
+.pesan {
+	text-align: center;
+}
+
+.container-paragraf-pesan {
+	display: flex;
+	justify-content: space-around;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.container-paragraf-pesan .input {
+	width: 30%;
+}
+
+.container-paragraf-pesan .output {
 	width: 60%;
 }
 
@@ -833,6 +859,11 @@ main {
 
 
 .section-img-tentang-saya img {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.section-img-tentang-website img {
 	width: 100%;
 	margin: 0 auto;
 }
@@ -1068,6 +1099,28 @@ figure img {
 	width: 100%;
 	margin-top: 0 auto;
 }
+
+.section-content-tentang-website {
+	color: #fff;
+}
+
+.section-content-tentang-website h3 {
+	text-align: center;
+}
+
+.container-paragraf-variant {
+	text-align: center;
+}
+
+.Vcoffe, .pesan {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.output p a  {
+	text-decoration: none;
+	color: #fff;
+}
 /* end aside */
 /* akhir main */
 
@@ -1082,7 +1135,27 @@ footer {
 }
 
 .footer-container {
+	flex-wrap: wrap;
 	background-color: #b45309;
 	padding: 20px 0px;
+	padding-bottom: 0px !important;
+	display: flex;
+	justify-content: center;
+}
+
+.tentang-kami {
+	width: 50%;
+}
+
+.social-media {
+	width: 40%;
+}
+
+.dibuat {
+	width: 100%;
+	margin-top: 40px;
+	padding: 30px;
+	background-color: #9b4000;
+	text-align: center;
 }
 /* end footer  */
