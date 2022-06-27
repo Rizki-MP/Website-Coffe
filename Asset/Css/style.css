@@ -75,20 +75,6 @@
 		font-weight: bold;
 	}
 
-	#tema-nav {
-		font-size: 20px;
-		background-color: #b45309;
-		padding: 10px 20px;
-		text-align: center;
-		border-radius: 30px;
-		cursor: pointer;
-	}
-	#tema-nav a {
-		color: #fff1e6 !important;
-		text-align: center;
-		margin: 0 auto;
-	}
-
 	/* toggle navbar start */
 		.toggle-nav {
 			display: none;
@@ -1126,5 +1112,3 @@
 
 
 */
-/* tema2 start */
-/* end tema2 */
