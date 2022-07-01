@@ -1,5 +1,5 @@
 # Website-Coffe
-Website Ini Dibuat Untuk Menyelesaikan Ujiaa dari dicoding academy "Belajar Dasar Pemrograman Web"
+Website Ini Dibuat Untuk Menyelesaikan Ujian dari dicoding academy "Belajar Dasar Pemrograman Web"
 
 <table>
   <tr>
